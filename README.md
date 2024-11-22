@@ -18,19 +18,19 @@ Acest proiect implementează și un sistem de criptare simetrică, utilizând ev
 
 ### 1. Simularea Jocului 
 
-    Citirea stării inițiale a matricei (m x n) și numărul de evoluții k.
-    Aplicarea regulilor de evoluție pentru a calcula matricea finală Sk.
-    Outputul constă în matricea rezultată după k evoluții.
+Citirea stării inițiale a matricei (m x n) și numărul de evoluții k.
+Aplicarea regulilor de evoluție pentru a calcula matricea finală Sk.
+Outputul constă în matricea rezultată după k evoluții.
 
-### 2. Criptare și Decriptare 
+### 2. Criptare și Decriptare
 
-    ####Criptare:
-        Creează o cheie de criptare pe baza unei configurări inițiale și a unui număr k de evoluții.
-        XOR între cheia generată și un mesaj pentru a produce textul criptat.
-    ####Decriptare:
-        Utilizează cheia generată pentru a recupera mesajul original prin XOR.
+ #### Criptare:
+Creează o cheie de criptare pe baza unei configurări inițiale și a unui număr k de evoluții.
+XOR între cheia generată și un mesaj pentru a produce textul criptat.
+#### Decriptare:
+ Utilizează cheia generată pentru a recupera mesajul original prin XOR.
 
 ### 3. Input și Output prin Fisiere (Cerința 0x02)
 
-    Citirea configurației inițiale dintr-un fișier in.txt.
-    Scrierea rezultatului evoluției într-un fișier out.txt.
+Citirea configurației inițiale dintr-un fișier in.txt.
+Scrierea rezultatului evoluției într-un fișier out.txt.

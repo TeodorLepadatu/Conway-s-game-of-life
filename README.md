@@ -1,7 +1,8 @@
 # Conway's Game of Life x86 AT&T
 
 Acest repository implementează Jocul Vieții al lui Conway și un sistem de criptare simetrică bazat pe evoluția acestuia, scris în Assembly x86, folosind sintaxa AT&T.
-##Descriere
+
+## Descriere
 
 Jocul Vieții al lui Conway este un joc zero-player inventat de matematicianul John Horton Conway în 1970. Simulează evoluția unei grile bidimensionale de celule pe baza unor reguli simple:
 

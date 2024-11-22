@@ -1,4 +1,4 @@
-#Jocul Vieții al lui Conway în Assembly x86 AT&T
+# ocul Vieții al lui Conway în Assembly x86 AT&T
 
 Acest repository implementează Jocul Vieții al lui Conway și un sistem de criptare simetrică bazat pe evoluția acestuia, scris în Assembly x86, folosind sintaxa AT&T.
 ##Descriere
@@ -13,15 +13,15 @@ Jocul Vieții al lui Conway este un joc zero-player inventat de matematicianul J
 
 Acest proiect implementează și un sistem de criptare simetrică, utilizând evoluția jocului ca și cheie.
 
-##Funcționalități
+## Funcționalități
 
-###1. Simularea Jocului 
+### 1. Simularea Jocului 
 
     Citirea stării inițiale a matricei (m x n) și numărul de evoluții k.
     Aplicarea regulilor de evoluție pentru a calcula matricea finală Sk.
     Outputul constă în matricea rezultată după k evoluții.
 
-###2. Criptare și Decriptare 
+### 2. Criptare și Decriptare 
 
     ####Criptare:
         Creează o cheie de criptare pe baza unei configurări inițiale și a unui număr k de evoluții.
@@ -29,7 +29,7 @@ Acest proiect implementează și un sistem de criptare simetrică, utilizând ev
     ####Decriptare:
         Utilizează cheia generată pentru a recupera mesajul original prin XOR.
 
-###3. Input și Output prin Fisiere (Cerința 0x02)
+### 3. Input și Output prin Fisiere (Cerința 0x02)
 
     Citirea configurației inițiale dintr-un fișier in.txt.
     Scrierea rezultatului evoluției într-un fișier out.txt.

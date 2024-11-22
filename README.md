@@ -1,4 +1,4 @@
-# ocul Vieții al lui Conway în Assembly x86 AT&T
+# Conway's Game of Life x86 AT&T
 
 Acest repository implementează Jocul Vieții al lui Conway și un sistem de criptare simetrică bazat pe evoluția acestuia, scris în Assembly x86, folosind sintaxa AT&T.
 ##Descriere

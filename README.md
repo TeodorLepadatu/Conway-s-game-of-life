@@ -30,7 +30,7 @@ XOR între cheia generată și un mesaj pentru a produce textul criptat.
 #### Decriptare:
  Utilizează cheia generată pentru a recupera mesajul original prin XOR.
 
-### 3. Input și Output prin Fisiere (Cerința 0x02)
+### 3. Input și Output prin Fisiere
 
 Citirea configurației inițiale dintr-un fișier in.txt.
 Scrierea rezultatului evoluției într-un fișier out.txt.
